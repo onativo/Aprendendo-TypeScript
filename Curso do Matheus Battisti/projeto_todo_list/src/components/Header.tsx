@@ -5,7 +5,7 @@ import styles from './Header.module.css'
 
 export function Header() {
   return (
-    <div>
+    <div className={styles.content}>
       <header className={styles.header}>
         <h1>React com TypeScrupt</h1>
       </header>
